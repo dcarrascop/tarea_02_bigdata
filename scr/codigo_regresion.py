@@ -7,6 +7,8 @@ iris = pd.read_csv("Iris.csv") #load the dataset
 
 iris.drop('Id',axis=1,inplace=True)
 
+#Agregar comentario
+
 # importing alll the necessary packages to use the various classification algorithms
 from sklearn.linear_model import LogisticRegression  # for Logistic Regression algorithm
 from sklearn.model_selection import train_test_split #to split the dataset for training and testing
